@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.apache.olingo.commons.api.edm.provider.CsdlProperty"/>
+    <fullyQualifiedTypeName name="org.apache.olingo.commons.api.edm.EdmPrimitiveTypeKind"/>
+    <fullyQualifiedTypeName name="org.apache.olingo.commons.api.edm.provider.CsdlPropertyRef"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

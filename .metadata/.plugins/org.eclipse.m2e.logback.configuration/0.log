@@ -112,3 +112,44 @@
 2020-04-22 14:11:37,877 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
 2020-04-22 14:11:37,878 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-04-22 14:11:37,878 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 14:35:51,775 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-22 14:35:54,277 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:35:54,277 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 14:35:54,281 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:35:54,282 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 14:38:22,569 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:38:22,570 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 14:38:22,573 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:38:22,573 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 14:40:43,449 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-22 14:40:46,261 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:40:46,262 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 14:40:46,265 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:40:46,265 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 14:47:35,599 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:47:35,600 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 14:47:35,603 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:47:35,604 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 14:47:45,483 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-04-22 14:47:45,711 [Worker-30: Launching DemoService] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService
+2020-04-22 14:47:45,714 [Worker-30: Launching DemoService] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2020-04-22 14:48:03,298 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:48:03,299 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 14:48:03,301 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:48:03,301 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 14:48:04,388 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:48:04,388 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 14:48:04,391 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:48:04,392 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 14:49:49,273 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-04-22 14:49:49,279 [Worker-23: Launching DemoService] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService
+2020-04-22 14:49:49,281 [Worker-23: Launching DemoService] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2020-04-22 14:52:34,983 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:52:34,984 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 14:52:34,987 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:52:34,988 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 14:55:44,215 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-22 14:55:49,077 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:55:49,077 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 14:55:49,084 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 14:55:49,085 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
