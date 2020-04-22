@@ -1,28 +1,73 @@
 package myservice.mynamespace.service;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
+import org.apache.olingo.commons.api.edm.EdmPrimitiveTypeKind;
 import org.apache.olingo.commons.api.edm.FullQualifiedName;
 import org.apache.olingo.commons.api.edm.provider.CsdlAbstractEdmProvider;
 import org.apache.olingo.commons.api.edm.provider.CsdlEntityContainer;
 import org.apache.olingo.commons.api.edm.provider.CsdlEntityContainerInfo;
 import org.apache.olingo.commons.api.edm.provider.CsdlEntitySet;
 import org.apache.olingo.commons.api.edm.provider.CsdlEntityType;
+import org.apache.olingo.commons.api.edm.provider.CsdlProperty;
+import org.apache.olingo.commons.api.edm.provider.CsdlPropertyRef;
 import org.apache.olingo.commons.api.edm.provider.CsdlSchema;
 import org.apache.olingo.commons.api.ex.ODataException;
 
 public class DemoEdmProvider extends CsdlAbstractEdmProvider {
-
+	
+	
+	public static final String NAMESPACE = "OData.demo";
+	
+	public static final String CONTAINER_NAME = "Container";
+	public static final FullQualifiedName CONTAINER = new FullQualifiedName(NAMESPACE, CONTAINER_NAME);
+	
+	public static final String ET_PRODUCT_NAME = "Product";
+	public static final FullQualifiedName ET_PRODUCT_FQN = new FullQualifiedName(NAMESPACE, ET_PRODUCT_NAME);
+	
+	public static final String ES_PRODUCTS_NAME = "Products";
+	
+	
 	@Override
 	public CsdlEntityType getEntityType(FullQualifiedName entityTypeName) throws ODataException {
-		// TODO Auto-generated method stub
-		return super.getEntityType(entityTypeName);
+		
+		
+		if (entityTypeName.equals(ET_PRODUCT_FQN)) {
+			
+			CsdlProperty id = new CsdlProperty().setName("ID").setType(EdmPrimitiveTypeKind.Int32.getFullQualifiedName());
+			CsdlProperty name = new CsdlProperty().setName("Name").setType(EdmPrimitiveTypeKind.String.getFullQualifiedName());
+			CsdlProperty description = new CsdlProperty().setName("Description").setType(EdmPrimitiveTypeKind.String.getFullQualifiedName());
+			
+				
+			CsdlPropertyRef propertyRef = new CsdlPropertyRef();
+			propertyRef.setName("ID");
+			
+			CsdlEntityType entityType = new CsdlEntityType();
+			entityType.setName(ET_PRODUCT_NAME);
+			entityType.setProperties(Arrays.asList(id, name, description));
+			entityType.setKey(Collections.singletonList(propertyRef));
+			
+			return entityType;
+		}
+		return null;
 	}
 
 	@Override
 	public CsdlEntitySet getEntitySet(FullQualifiedName entityContainer, String entitySetName) throws ODataException {
-		// TODO Auto-generated method stub
-		return super.getEntitySet(entityContainer, entitySetName);
+		
+		if (entityContainer.equals(CONTAINER)) {
+			if (entitySetName.equals(ES_PRODUCTS_NAME)) {
+				CsdlEntitySet entitySet = new CsdlEntitySet();
+				entitySet.setName(ES_PRODUCTS_NAME);
+				entitySet.setType(ET_PRODUCT_FQN);
+				
+				return entitySet;
+			}
+		}
+		
+		return null;
 	}
 
 	@Override
