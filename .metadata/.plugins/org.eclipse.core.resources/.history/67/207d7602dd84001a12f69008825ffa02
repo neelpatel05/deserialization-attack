@@ -13,6 +13,8 @@ import org.apache.olingo.server.api.OData;
 import org.apache.olingo.server.api.ODataHttpHandler;
 import org.apache.olingo.server.api.ServiceMetadata;
 
+import com.sun.org.slf4j.internal.Logger;
+import com.sun.org.slf4j.internal.LoggerFactory;
 
 import myservice.mynamespace.service.DemoEdmProvider;
 import myservice.mynamespace.service.DemoEntityCollectionProcessor;

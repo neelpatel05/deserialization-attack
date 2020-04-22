@@ -13,6 +13,8 @@ import org.apache.olingo.server.api.OData;
 import org.apache.olingo.server.api.ODataHttpHandler;
 import org.apache.olingo.server.api.ServiceMetadata;
 
+import com.sun.org.slf4j.internal.Logger;
+import com.sun.org.slf4j.internal.LoggerFactory;
 
 import myservice.mynamespace.service.DemoEdmProvider;
 import myservice.mynamespace.service.DemoEntityCollectionProcessor;
@@ -20,6 +22,7 @@ import myservice.mynamespace.service.DemoEntityCollectionProcessor;
 public class DemoServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
+	private static final Logger LOG = LoggerFactory.getLogger(DemoServlet.class);
 	
 	protected void service(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
 		try {
@@ -31,6 +34,7 @@ public class DemoServlet extends HttpServlet {
 			
 			handler.process(req, resp);
 		} catch (RuntimeException e) {
+			LOG.error("Server Error occured in ExampleServlet", e);
 			throw new ServletException(e);
 		}
 	}
