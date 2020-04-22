@@ -73,15 +73,8 @@ public class DemoEdmProvider extends CsdlAbstractEdmProvider {
 
 	@Override
 	public CsdlEntityContainerInfo getEntityContainerInfo(FullQualifiedName entityContainerName) throws ODataException {
-		
-		if (entityContainerName == null || entityContainerName.equals(CONTAINER)) {
-			CsdlEntityContainerInfo entityContainerInfo = new CsdlEntityContainerInfo();
-			
-			entityContainerInfo.setContainerName(CONTAINER);
-			return entityContainerInfo;
-		}
-		
-		return null;
+		// TODO Auto-generated method stub
+		return super.getEntityContainerInfo(entityContainerName);
 	}
 
 	@Override
@@ -100,6 +93,8 @@ public class DemoEdmProvider extends CsdlAbstractEdmProvider {
 		schemas.add(schema);
 		
 		return schemas;
+		
+		return super.getSchemas();
 	}
 
 	@Override
