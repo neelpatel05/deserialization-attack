@@ -1,0 +1,49 @@
+2020-04-22 10:37:33,995 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-22 10:39:41,197 [Worker-28: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\pom.xml
+2020-04-22 10:39:42,493 [Worker-28: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: my.group.id:DemoService:4.6.0 @ C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\pom.xml.
+2020-04-22 10:39:44,015 [Worker-28: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoService/src/main/java
+2020-04-22 10:39:44,018 [Worker-28: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DemoService/src/test/java
+2020-04-22 10:39:46,744 [Worker-28: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2020-04-22 10:39:48,069 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:39:48,070 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 10:39:48,073 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:39:48,074 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 10:40:31,320 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:40:31,320 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 10:40:31,322 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:40:31,322 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 10:41:35,244 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:41:35,245 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 10:41:35,248 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:41:35,248 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 10:43:47,713 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: my.group.id:DemoService:4.6.0 @ C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\pom.xml.
+2020-04-22 10:43:48,995 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:43:48,995 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 10:43:48,998 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:43:48,999 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 10:43:48,999 [Worker-34: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of DemoService
+2020-04-22 10:43:49,000 [Worker-34: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for DemoService
+2020-04-22 10:43:49,009 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:01,924 [Worker-40: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: my.group.id:DemoService:4.6.0 @ C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\pom.xml.
+2020-04-22 10:45:03,449 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:03,449 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 10:45:03,452 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:03,452 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 10:45:03,453 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of DemoService
+2020-04-22 10:45:03,453 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for DemoService
+2020-04-22 10:45:03,458 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:04,137 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:04,137 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 10:45:04,139 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:04,139 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 10:45:32,954 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:32,954 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 10:45:32,957 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:32,957 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 10:45:55,879 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:55,879 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\main\resources
+2020-04-22 10:45:55,881 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-22 10:45:55,881 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService\src\test\resources
+2020-04-22 10:46:01,926 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-04-22 10:46:10,628 [Worker-38: Launching DemoService] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\patel\Documents\GitHub Local\deserialization-attack\DemoService
+2020-04-22 10:46:10,633 [Worker-38: Launching DemoService] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
